@@ -32,3 +32,7 @@ def get_str_value(st: str) -> int:
     for char in st:
         value += ord(char)
     return value
+
+
+def div_hash(key: int, table_size: int) -> int:
+    return key % table_size

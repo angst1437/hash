@@ -52,7 +52,7 @@ class HashTable:
             keys.append(pair[0])
         return keys
 
-    def del_e(self, key):
+    def delete(self, key):
         """
         Удаляет элемент по индексу, полученному из функции find
         """
